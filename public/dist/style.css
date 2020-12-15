@@ -1,0 +1,423 @@
+*,
+body,
+html {
+    font-family: 'Roboto', serif;
+}
+
+a {
+    color: #0084ff
+}
+
+p {
+    color: #4A4D58;
+    font-size: 16px;
+}
+
+.ui.button{
+    font-family: 'Roboto', serif;
+    font-weight: 400 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1,
+h2 {
+    color: #444;
+    font-family: 'Roboto Slab', palatino, serif;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: -.2px;
+    line-height: 38px;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    font-size: 22px;
+    letter-spacing: -.1px;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+}
+
+.area-title h4 {
+    text-transform: uppercase;
+}
+
+.font-large {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.font-biggest {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.head-title{
+    color:#444;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: -.2px;
+}
+
+.small-space{
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+
+.medium-space{
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+}
+
+.big-space{
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
+}
+
+.float-right{
+  float: right;
+}
+
+.center{
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+/*====================================================Colors*/
+.bg-1{
+  background: #ecf0f1 !important;
+}
+
+.bg-2{
+  background: #000 !important;
+}
+
+.color-1{
+  color: #5f27cd;
+}
+
+.bg-2 *{
+  color: #fff;
+}
+
+.color-green{
+  color: green;
+}
+
+.back1{
+  background: url('https://www.ibankpeoples.com/assets/1524682477-featuredefault.jpg') no-repeat;
+  background-position: top left;
+  background-size: cover;
+  height: 500px;
+  display: grid !important;
+  align-content: center;
+}
+
+/*===================================================GERAL*/
+
+.page-anuncio-1 .logo-empresa{
+  margin-top: -120px;
+  z-index: 999999;
+}
+
+.page-anuncio-1 .swiper-container img.ui.image{
+  min-width: 100% !important;
+}
+
+.page-anuncio-1 .swiper-pagination{
+  text-align: right;
+  padding-right: 15px;
+}
+
+
+.page-anuncio-1 .ui.accordion {
+   margin-bottom: 20px
+}
+
+.page-anuncio-1 .ui.accordion .title span.red{
+  color: #f35 !important;
+}
+.page-anuncio-1 .ui.accordion .title span.green{
+  color: #4cd137 !important;
+}
+
+.page-anuncio-1 .description{
+  margin-top: -15px !important;
+}
+.page-anuncio-1 .description .button{
+  margin-top: 20px
+}
+
+
+#cardapio{
+  background: url('img/pizza-border.png') no-repeat !important;
+  background-color: #000 !important;
+  background-position: top center !important;
+}
+
+#cardapio .ui.accordion .content{
+  background: #fff !important;
+}
+
+#cardapio .head-title{
+  color: #fff !important;
+}
+
+#cardapio .font-large{
+  color: yellow;
+}
+.no-bullets {
+    list-style-type: none;
+    margin-left: -40px;
+}
+#top-menu.ui.menu{
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+#logo{
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+#logo ul{
+  margin-top: 0 !important;
+}
+
+.ui.sidebar.left{
+	background: #fff;
+}
+
+header nav .ui.attached.menu:not(.tabular),
+header nav .ui.menu{
+	border: none !important;
+}
+
+.botLEFT{
+	margin-top: 10px !important;
+}
+
+.ui.segment:not(.basic), .ui.card, .ui.cards .card{
+	border-radius: 0 !important;
+	padding: 30px 30px;
+	border: none !important;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.08) !important;
+}
+
+.ui.styled.fluid.accordion{
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
+.ui.styled.accordion > .title,
+.ui.styled.accordion .title:hover{
+  margin-top: 0 !important;
+  color: #111;
+  font-weight: 900;
+  margin: 15px 0!important;
+  border-top: none !important;
+  background: #fff
+}
+
+.ui.styled.accordion .active.title{
+  background: #fff !important
+}
+
+.ui.styled.accordion > .title:first-child,
+.ui.styled.accordion > .title:first-child:hover{
+  margin-top: 0 !important;
+}
+
+.panel {
+    max-width: 570px !important;
+    float: right !important;
+    padding-right: 40px;
+}         
+
+
+/*SWIPER*/
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-container-banner .swiper-slide{
+	min-height: 500px;
+}
+.swiper-container-banner .swiper-button-next.swiper-button-disabled,
+.swiper-container-banner .swiper-button-next
+{
+	margin-right: 45px !important;
+}
+.swiper-container-banner .swiper-button-prev.swiper-button-disabled,
+.swiper-container-banner .swiper-button-prev
+{
+	margin-left: 45px !important;
+}
+
+
+.swiper-container-depoiment .swiper-pagination-bullets{
+  bottom: 20px !important;
+}
+
+
+.swiper-container-banner-image img{
+  width: 100% !important;
+}
+
+.swiper-container-banner-image .swiper-slide{
+  min-height: auto !important;
+}
+/*====================================================Visibility*/
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  [class*="mobile hidden"],
+  [class*="tablet only"]:not(.mobile),
+  [class*="computer only"]:not(.mobile),
+  [class*="large screen only"]:not(.mobile),
+  [class*="widescreen only"]:not(.mobile),
+  [class*="or lower hidden"] {
+    display: none !important;
+  }
+  .center-mobile{
+  	text-align: center !important;
+  	margin: 0 auto;
+  	position: relative;
+  	display: block;
+  }
+  header nav .ui.attached.menu:not(.tabular){
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  }
+
+  .panel{
+    float: left!important;
+  }
+
+  .page-anuncio-1 .logo-empresa{
+    margin-top: 0 !important;
+  }
+
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large screen only"]:not(.tablet),
+  [class*="widescreen only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important;
+  }
+  .panel{
+    margin-left: 15px !important;
+  }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  [class*="mobile only"]:not(.computer),
+  [class*="tablet only"]:not(.computer),
+  [class*="computer hidden"],
+  [class*="large screen only"]:not(.computer),
+  [class*="widescreen only"]:not(.computer),
+  [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+  .panel{
+    margin-left: 15px !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  [class*="mobile only"]:not([class*="large screen"]),
+  [class*="tablet only"]:not([class*="large screen"]),
+  [class*="computer only"]:not([class*="large screen"]),
+  [class*="large screen hidden"],
+  [class*="widescreen only"]:not([class*="large screen"]),
+  [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+  [class*="mobile only"]:not([class*="widescreen"]),
+  [class*="tablet only"]:not([class*="widescreen"]),
+  [class*="computer only"]:not([class*="widescreen"]),
+  [class*="large screen only"]:not([class*="widescreen"]),
+  [class*="widescreen hidden"],
+  [class*="widescreen or lower hidden"] {
+    display: none !important;
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .ui.container {
+    width: 1200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .ui.grid.container {
+    width: calc( 1200px  +  2rem ) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc( 1200px  +  3rem ) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc( 1200px  +  5rem ) !important;
+  }
+}
+
+
+
