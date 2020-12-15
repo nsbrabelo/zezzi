@@ -10,7 +10,6 @@ export class Header extends Component {
     render() {
         return (
             <Fragment>
-
                 <header>
                     <nav>
                         <div className="ui attached stackable menu bg-1">

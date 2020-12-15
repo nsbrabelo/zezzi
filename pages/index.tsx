@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Create Next App</title>
+        <title>Chola do Zezzi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link href="/dist/semantic.min.css" rel="stylesheet"/>
         <link href="/dist/style.css" rel="stylesheet"/>
         <link href="/dist/swiper.min.css" rel="stylesheet"/>
@@ -60,7 +61,7 @@ export default function Home() {
                                     </div>
                                     <div className="middle aligned content">
                                         <h1 className="ui header">
-                                            Pizzaria Vila Dy Napolli
+                                            Pizzaria Vila Dy Chola
                                         </h1>
                                         <div className="description">
                                             <a className="horario-link"><span className="color-green">Aberto</span> • Fecha às 20h <i className="dropdown icon"></i> Ver mais</a>
