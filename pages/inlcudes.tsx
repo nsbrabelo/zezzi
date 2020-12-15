@@ -1,5 +1,11 @@
 import { Component, Fragment } from 'react'
 
+export default class Page extends Component {
+    render() {
+        return <h1>Access Deny</h1>
+    }
+}
+
 export class Header extends Component {
     render() {
         return (
